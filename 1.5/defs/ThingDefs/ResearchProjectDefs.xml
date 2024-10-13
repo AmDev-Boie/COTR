@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--===== Column 1 ====-->
+
+    <ResearchProjectDef>
+		<defName>GlitterTech</defName>
+		<label>GlitterTech</label>
+		<description>Basics and fundamentals of glitterworld technology.</description>
+        <tab>Glitterworld</tab>
+
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>ShipBasics</li>
+		</prerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>0.25</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<!--===== Column 2 ====-->
+
+	<ResearchProjectDef>
+		<defName>GlitterNetFoundation</defName>
+		<label>GlitterNet Foundation</label>
+		<description>A technology made and exclusively used on glitterworlds that utilizes Archites to do some seemingly magical things under certain stimuli.</description>
+        <tab>Glitterworld</tab>
+
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>GlitterTech</li>
+		</prerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>1.25</researchViewX>
+	    <researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>AdvancedAlloying</defName>
+		<label>Advanced Alloying</label>
+		<description>Advanced alloying techniques that allow for the fabrication of Exceptional materials.</description>
+        <tab>Glitterworld</tab>
+
+		<baseCost>3500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>GlitterTech</li>
+		</prerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>1.25</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>UltratechManufacturing</defName>
+		<label>Ultratech Manufacturing</label>
+		<description>Advanced stations for fabricating Ultratech Tier equipment.</description>
+        <tab>Glitterworld</tab>
+
+		<baseCost>4000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>GlitterTech</li>
+		</prerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>1.25</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<!--===== Column 3 ====-->
+
+	<ResearchProjectDef>
+		<defName>PseudoArchotechnology</defName>
+		<label>Pseudo Archotechnology</label>
+		<description>Glitterworld's Imitation of Archotechnology.</description>
+        <tab>Glitterworld</tab>
+
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>AdvancedAlloying</li>
+			<li>UltratechManufacturing</li>
+		</prerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>2.25</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<!--===== Column 4 ====-->
+
+	<ResearchProjectDef>
+		<defName>ArchitePrototypes</defName>
+		<label>Archite prototypes</label>
+		<description>Improvised prototypes of archite-based weapons with mild bonuses compared to their standard counterparts.</description>
+        <tab>Glitterworld</tab>
+
+		<baseCost>5000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>AdvancedAlloying</li>
+			<li>UltratechManufacturing</li>
+		</prerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>3.25</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DifficultyDef>
+        <defName>Revengance</defName>
+        <label>Revengance</label>
+        <description>This setting is the difficulty recomended for playing COTR... or anyone who wants "Losing is Fun" on crack.
+
+    (*SectionTitle)Recommended for:(/SectionTitle)
+
+    - Highly experienced players who whish for further challange in a more suited style for the mod.
+    - Thinks "Losing is fun" is standard difficulty.
+    - Was told by a friend to try it because: "it would be funny.".
+    - Players who prefer raids to be a fight to the death no matter how well you minmax</description>
+        <difficulty>7</difficulty>
+        <threatScale>4.5</threatScale>
+        <adaptationEffectFactor>0.5</adaptationEffectFactor>
+        <colonistMoodOffset>-11</colonistMoodOffset>
+        <tradePriceFactorLoss>0.20</tradePriceFactorLoss>
+        <cropYieldFactor>0.75</cropYieldFactor>
+        <mineYieldFactor>0.25</mineYieldFactor>
+        <butcherYieldFactor>0.8</butcherYieldFactor>
+        <researchSpeedFactor>0.8</researchSpeedFactor>
+        <diseaseIntervalFactor>0.9</diseaseIntervalFactor>
+        <enemyReproductionRateFactor>1.1</enemyReproductionRateFactor>
+        <playerPawnInfectionChanceFactor>1.25</playerPawnInfectionChanceFactor>
+        <deepDrillInfestationChanceFactor>1.5</deepDrillInfestationChanceFactor>
+        <wastepackInfestationChanceFactor>10</wastepackInfestationChanceFactor>
+        <foodPoisonChanceFactor>1.25</foodPoisonChanceFactor>
+        <maintenanceCostFactor>1</maintenanceCostFactor>
+        <enemyDeathOnDownedChanceFactor>1</enemyDeathOnDownedChanceFactor>
+        <adaptationGrowthRateFactorOverZero>1</adaptationGrowthRateFactorOverZero>
+        <scariaRotChance>1</scariaRotChance> <!-- calculated from difficulty 3 and threatScale -->
+        <studyEfficiencyFactor>0.8</studyEfficiencyFactor>
+    </DifficultyDef>
+  </Defs>
