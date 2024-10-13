@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BenchBase">
+        <defName>UltraHiTechResearchBench</defName>
+        <label>Ultra hi-tech research bench</label>
+        <description>An Ultratech Research bench with even further improved tools to speed up research, and even is capable of researching Glitterworld level tech.</description>
+        <thingClass>Building_ResearchBench</thingClass>
+        <size>(7,3)</size>
+        <minifiedDef />
+        <thingCategories Inherit="false" />
+        <costList>
+            <Gold>5</Gold>
+            <Silver>10</Silver>
+            <Plasteel>125</Plasteel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+        </costList>
+        <graphicData>
+            <texPath>COTR/buildings/UltraHiTechResearchBench</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(7,3)</drawSize>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <statBases>
+            <MaxHitPoints>800</MaxHitPoints>
+            <WorkToBuild>12000</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <ResearchSpeedFactor>1.75</ResearchSpeedFactor>
+        </statBases>
+        <comps Inherit="False">
+            <li Class="CompProperties_ReportWorkSpeed">
+                <workSpeedStat>ResearchSpeedFactor</workSpeedStat>
+                <displayReasons>false</displayReasons>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>500</basePowerConsumption>
+                <shortCircuitInRain>true</shortCircuitInRain>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>MultiAnalyzer</li>
+                </linkableFacilities>
+            </li>
+        </comps>
+        <fillPercent>0.5</fillPercent>
+        <interactionCellOffset>(0,-1,-2)</interactionCellOffset>
+        <hasInteractionCell>true</hasInteractionCell>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <designationCategory>Production</designationCategory>
+        <uiOrder>2610</uiOrder>
+        <surfaceType>Item</surfaceType>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+            <li>PlaceWorker_DrawLinesToBookcasesInRoom</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>GlitterTech</li>
+        </researchPrerequisites>
+        <building>
+            <paintable>true</paintable>
+        </building>
+    </ThingDef>
+
+</Defs>

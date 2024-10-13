@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+  <!-- content goes here -->
+  <packageId>AmDeth.COTR</packageId>
+  <name>COTR</name>
+  <author>AmDeth</author>
+
+  <!-- Description -->  
+  <description>[!!!] THIS MOD IS AN OVERHAUL KIND OF MOD! [!!!]
+Do not expect compatability outside of what is explicitly listed at the bottom.
+  
+[!!!] THIS MOD IS IN VERY EARLY STAGES [!!!]
+Please leave a comment in the steam worshop if you find a bug, have an idea, or want to contribute.
+
+//==========| Description |=========//
+
+"Cataclysm on the Rim" is a project that plans to add further progression to rimworld, along with just more things in general.
+  
+//==========| Content |=========//
+
+- 3 New weapons
+- 3 New resources
+
+- 6 Research projects
+
+- 1 building
+  
+//==========| Compatability |=========//
+[X]: Not planned to make compatable / Not Intended to be played with.
+[O]: planned to make compatable, but havent gotten to it.
+[I]: Technically Compatable.
+[V]: Compatable and implemented special features.
+  
+- [X] Combat Extended
+- [X] Z-Levels
+- [X] GlitterTech
+- [X] GlitterNet
+- [X] Quality Bionics
+- [X] Z-Levels
+- [X] More Batteries
+- [X] Advanced Hydroponics
+
+- [I] SOS/SOS2</description>
+
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+
+  <!-- Dependancies -->
+  <modDependencies>
+  </modDependencies>
+
+  <!-- Must load after: -->
+  <forceLoadAfter>
+  </forceLoadAfter>
+
+  <!-- Cannot be loaded with: -->
+  <incompatibleWith>
+    <li>CETeam.CombatExtended</li>
+  </incompatibleWith>
+
+  <modVersion IgnoreIfNoMatchingField="True">0.1.0.0</modVersion>
+</ModMetaData>

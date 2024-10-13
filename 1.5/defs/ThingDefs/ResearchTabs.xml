@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchTabDef>
+    <defName>Glitterworld</defName>
+    <label>Glitterworld</label>
+    <generalTitle>Glitterworld Research</generalTitle>
+    <generalDescription>Unlocked through completing ALL tasks in 'Main'.</generalDescription>
+  </ResearchTabDef>
+
+</Defs>

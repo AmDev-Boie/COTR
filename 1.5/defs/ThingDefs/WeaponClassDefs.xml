@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WeaponClassDef>
+    <defName>Archotech</defName>
+    <label>Archotech</label>
+  </WeaponClassDef>
+
+  <WeaponClassDef>
+    <defName>ExoticTech</defName>
+    <label>Exotic Tech</label>
+  </WeaponClassDef>
+
+</Defs>

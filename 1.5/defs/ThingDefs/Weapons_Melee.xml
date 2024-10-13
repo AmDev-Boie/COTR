@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- GAUSS -->
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>COTR_GAUSS_Prototype</defName>
+    <label>Prototype GAUSS</label>
+    <description>A knife built from some Archotech-like alloys and mechanites for special sharpening properties.
+    
+    [!] Exceptionally Fragile due to being a prototype. [!]</description>
+
+
+    <graphicData>
+        <texPath>COTR/weapons/GAUSS_Prototype</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <techLevel>Ultra</techLevel>
+
+    
+    <smeltable>true</smeltable>
+    <costList>
+      <COTR_Monolithium>20</COTR_Monolithium>
+      <COTR_Tungsten>5</COTR_Tungsten>
+      <COTR_ComponentUltra>1</COTR_ComponentUltra>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PseudoArchotechnology</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>1000</displayPriority>
+    </recipeMaker>
+
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>1.25</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1750</MarketValue>
+    </statBases>
+    <tools>
+        <li>
+            <label>handle</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+            <label>point</label>
+            <capacities>
+                <li>Stab</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>1.25</cooldownTime>
+        </li>
+        <li>
+            <label>edge</label>
+            <capacities>
+                <li>Cut</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>1.75</cooldownTime>
+        </li>
+    </tools>
+
+
+    <relicChance>1</relicChance>
+
+    <weaponTags>
+      <li>Archotech</li>
+    </weaponTags>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>COTR_GAUSS_Normal</defName>
+    <label>GAUSS</label>
+    <description>A knife built from some Archotech-like alloys and mechanites for special sharpening properties.\</description>
+
+
+    <graphicData>
+        <texPath>COTR/weapons/GAUSS_Prototype</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <techLevel>Ultra</techLevel>
+
+    
+    <smeltable>true</smeltable>
+    <costList>
+      <COTR_GAUSS_Prototype>1</COTR_GAUSS_Prototype>
+      <COTR_Monolithium>5</COTR_Monolithium>
+      <Gold>5</Gold>
+      <COTR_Tungsten>10</COTR_Tungsten>
+      <COTR_ComponentUltra>1</COTR_ComponentUltra>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PseudoArchotechnology</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>1000</displayPriority>
+    </recipeMaker>
+
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>1.25</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1750</MarketValue>
+    </statBases>
+    <tools>
+        <li>
+            <label>handle</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+            <label>point</label>
+            <capacities>
+                <li>Stab</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>1.25</cooldownTime>
+        </li>
+        <li>
+            <label>edge</label>
+            <capacities>
+                <li>Cut</li>
+            </capacities>
+            <power>17</power>
+            <cooldownTime>1.75</cooldownTime>
+        </li>
+    </tools>
+
+
+    <relicChance>1</relicChance>
+
+    <weaponTags>
+      <li>Archotech</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- Frequency Manipulator -->
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>COTR_FrequencyManipulator_Prototype</defName>
+    <label>Prototype Frequency Manipulator</label>
+    <description>A Spear built from some Archotech-like alloys and mechanites for special sharpening properties.
+    
+    [!] Exceptionally Fragile due to being a prototype. [!]</description>
+
+
+    <graphicData>
+        <texPath>COTR/weapons/FreqManip_Prototype_Prototype</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <techLevel>Ultra</techLevel>
+
+    
+    <smeltable>true</smeltable>
+    <costList>
+      <COTR_Monolithium>20</COTR_Monolithium>
+      <COTR_Tungsten>5</COTR_Tungsten>
+      <COTR_ComponentUltra>1</COTR_ComponentUltra>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PseudoArchotechnology</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>1000</displayPriority>
+    </recipeMaker>
+
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>1.25</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1750</MarketValue>
+    </statBases>
+    <tools>
+        <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <armorPenetration>0.65</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>jagged edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <armorPenetration>0.15</armorPenetration>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+
+
+    <relicChance>1</relicChance>
+
+    <weaponTags>
+      <li>Archotech</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!-- Galvanizing Glaive -->
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>COTR_GalvanizingGlaive_Prototype</defName>
+    <label>Prototype Galvanizing Glaive</label>
+    <description>A Glaive built from some Archotech-like alloys and mechanites for special sharpening properties.
+    
+    [!] Exceptionally Fragile due to being a prototype. [!]</description>
+
+
+    <graphicData>
+        <texPath>COTR/weapons/FreqManip_Prototype</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <techLevel>Ultra</techLevel>
+
+    
+    <smeltable>true</smeltable>
+    <costList>
+      <COTR_Monolithium>20</COTR_Monolithium>
+      <COTR_Tungsten>5</COTR_Tungsten>
+      <COTR_ComponentUltra>1</COTR_ComponentUltra>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>PseudoArchotechnology</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <displayPriority>1000</displayPriority>
+    </recipeMaker>
+
+
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>1.25</Mass>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1750</MarketValue>
+    </statBases>
+    <tools>
+        <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>28</power>
+        <armorPenetration>0.65</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>jagged edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <armorPenetration>0.15</armorPenetration>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+
+
+    <relicChance>1</relicChance>
+
+    <weaponTags>
+      <li>Archotech</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>
