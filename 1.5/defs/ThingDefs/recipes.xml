@@ -67,7 +67,7 @@
         <displayPriority>11</displayPriority>
 
 
-        <researchPrerequisite>UltratechManufacturing</researchPrerequisite>
+        <researchPrerequisite>PseudoArchotechnology</researchPrerequisite>
     </RecipeDef>
 
     <RecipeDef>

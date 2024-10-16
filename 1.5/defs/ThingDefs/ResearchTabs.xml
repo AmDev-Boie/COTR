@@ -5,7 +5,16 @@
     <defName>Glitterworld</defName>
     <label>Glitterworld</label>
     <generalTitle>Glitterworld Research</generalTitle>
-    <generalDescription>Unlocked through completing ALL tasks in 'Main'.</generalDescription>
+    <generalDescription>Research projects usually only ever seen on distant glitterworlds.</generalDescription>
+  </ResearchTabDef>
+
+  <ResearchTabDef>
+    <defName>Archotechnology</defName>
+    <label>Archotechnology</label>
+    <generalTitle>Archotechnology Research</generalTitle>
+    <generalDescription>Research the vastly complex topics of Archotechnology to integrate a portion of their power into your arsenal.
+  
+  [!] THIS BRANCH OF RESEARCH IS NOT BALANCED YET, BUT IS INCLUDED AS A ROUGH PREVIEW. [!]</generalDescription>
   </ResearchTabDef>
 
 </Defs>

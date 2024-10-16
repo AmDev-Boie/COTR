@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="BenchBase">
         <defName>UltraHiTechResearchBench</defName>
-        <label>Ultra hi-tech research bench</label>
+        <label>ultra hi-tech research bench</label>
         <description>An Ultratech Research bench with even further improved tools to speed up research, and even is capable of researching Glitterworld level tech.</description>
         <thingClass>Building_ResearchBench</thingClass>
         <size>(7,3)</size>
@@ -56,7 +56,7 @@
         <designationCategory>Production</designationCategory>
         <uiOrder>2610</uiOrder>
         <surfaceType>Item</surfaceType>
-        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
         <placeWorkers>
             <li>PlaceWorker_ShowFacilitiesConnections</li>
             <li>PlaceWorker_PreventInteractionSpotOverlap</li>
@@ -68,6 +68,66 @@
         <building>
             <paintable>true</paintable>
         </building>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>COTR_ParallelQuantumComputer</defName>
+        <label>parallel quantum computer</label>
+        <description>Vastly increases research speed for Research benches, additionally allows for processing Exabytes of data; ideal for Glittertech research projects.</description>
+        <graphicData>
+            <texPath>COTR/buildings/ParallelQuantumComputer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <uiIconScale>0.85</uiIconScale>
+        <researchPrerequisites><li>GlitterNetFoundation</li></researchPrerequisites>
+        <size>(2,2)</size>
+        <rotatable>false</rotatable>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <castEdgeShadows>true</castEdgeShadows>
+        <fillPercent>0.5</fillPercent>
+        <designationCategory>Misc</designationCategory>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <canOverlapZones>false</canOverlapZones>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>450</MaxHitPoints>
+            <WorkToBuild>25000</WorkToBuild>
+            <Mass>60</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <costList>
+            <Gold>10</Gold>
+            <Silver>10</Silver>
+            <Plasteel>80</Plasteel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        </building>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>450</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Facility">
+                <statOffsets>
+                    <ResearchSpeedFactor>0.25</ResearchSpeedFactor>
+                </statOffsets>
+                <maxSimultaneous>1</maxSimultaneous>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+        </placeWorkers>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     </ThingDef>
 
 </Defs>

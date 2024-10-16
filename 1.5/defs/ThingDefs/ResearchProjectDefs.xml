@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--=========================-->
+	<!--=====| Glitterworld |====-->
+	<!--=========================-->
+
 	<!--===== Column 1 ====-->
 
     <ResearchProjectDef>
@@ -9,7 +13,7 @@
 		<description>Basics and fundamentals of glitterworld technology.</description>
         <tab>Glitterworld</tab>
 
-		<baseCost>5000</baseCost>
+		<baseCost>8000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>ShipBasics</li>
@@ -32,13 +36,13 @@
 		<description>A technology made and exclusively used on glitterworlds that utilizes Archites to do some seemingly magical things under certain stimuli.</description>
         <tab>Glitterworld</tab>
 
-		<baseCost>5000</baseCost>
+		<baseCost>9000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>GlitterTech</li>
 		</prerequisites>
 
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchBuilding>UltraHiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
@@ -53,13 +57,13 @@
 		<description>Advanced alloying techniques that allow for the fabrication of Exceptional materials.</description>
         <tab>Glitterworld</tab>
 
-		<baseCost>3500</baseCost>
+		<baseCost>7500</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>GlitterTech</li>
 		</prerequisites>
 
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchBuilding>UltraHiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
@@ -74,13 +78,13 @@
 		<description>Advanced stations for fabricating Ultratech Tier equipment.</description>
         <tab>Glitterworld</tab>
 
-		<baseCost>4000</baseCost>
+		<baseCost>8500</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>GlitterTech</li>
 		</prerequisites>
 
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchBuilding>UltraHiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
@@ -97,16 +101,17 @@
 		<description>Glitterworld's Imitation of Archotechnology.</description>
         <tab>Glitterworld</tab>
 
-		<baseCost>5000</baseCost>
+		<baseCost>35000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
 			<li>AdvancedAlloying</li>
 			<li>UltratechManufacturing</li>
+			<li>GlitterNetFoundation</li>
 		</prerequisites>
 
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchBuilding>UltraHiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
+			<li>COTR_ParallelQuantumComputer</li>
 		</requiredResearchFacilities>
 
         <researchViewX>2.25</researchViewX>
@@ -121,19 +126,43 @@
 		<description>Improvised prototypes of archite-based weapons with mild bonuses compared to their standard counterparts.</description>
         <tab>Glitterworld</tab>
 
-		<baseCost>5000</baseCost>
+		<baseCost>30000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<prerequisites>
-			<li>AdvancedAlloying</li>
-			<li>UltratechManufacturing</li>
+			<li>PseudoArchotechnology</li>
 		</prerequisites>
 
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchBuilding>UltraHiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
+			<li>COTR_ParallelQuantumComputer</li>
 		</requiredResearchFacilities>
 
         <researchViewX>3.25</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<!--=========================-->
+	<!--======| Archotech |======-->
+	<!--=========================-->
+
+	<!--===== Column 1 ====-->
+
+	<ResearchProjectDef>
+		<defName>AdvancedArchites</defName>
+		<label>AdvancedArchites</label>
+		<description>This research project is temporarially holding all archotech tab stuff until i get to sorting this tab out. until then they will just exist here for debug and preview purposes only.</description>
+        <tab>Archotechnology</tab>
+
+		<baseCost>999999999</baseCost>
+		<techLevel>Ultra</techLevel>
+		<!--===== PLACE PREREQUISITE BACK IN HERE WHEN READY TO WORK ON ARCHOTECH TAB ====-->
+
+		<requiredResearchBuilding>UltraHiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>COTR_ParallelQuantumComputer</li>
+		</requiredResearchFacilities>
+
+        <researchViewX>0.25</researchViewX>
 	    <researchViewY>3</researchViewY>
 	</ResearchProjectDef>
 </Defs>
